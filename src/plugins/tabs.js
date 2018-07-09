@@ -84,7 +84,7 @@ class Tabs {
      * @returns {HTMLElement[]} An array of the found items
      */
     findContentItems() {
-        return this.content.querySelectorAll('li');
+        return this.content.querySelectorAll('li.tabs-content-item');
     }
 
     /**
